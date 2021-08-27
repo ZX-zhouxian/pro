@@ -1,0 +1,63 @@
+.bg-color {
+    background: linear-gradient(to right, #f0f0f0 0%, #e0e0e0 100%);
+}
+
+.my_img {
+    transition: transform 1s;
+}
+
+.my_img:hover {
+    transform: scale(1.1);
+}
+
+.my_btn_1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #E4E4E4;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    line-height: 0.9rem;
+}
+
+.my_btn_1:focus {
+    outline: 0;
+}
+
+.my_input_1 {
+    width: 2rem;
+    height: 1.5rem;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.pagination .page-link {
+    border-radius: 0.2rem;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.2rem;
+    font-size: 0.8rem;
+    background-color: transparent;
+    border-color: #ccc;
+    color: #0aa1ed;
+}
+
+.pagination .page-link:focus {
+    box-shadow: 0 0 0 0 #000;
+}
+
+.pagination .page-link:hover {
+    border-color: #0aa1ed;
+}
+
+.my_btn_2 {
+    width: 2rem;
+    height: 2rem;
+    background: #E4E4E4;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    line-height: 1rem;
+}
